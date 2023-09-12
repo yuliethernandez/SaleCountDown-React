@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --theme-color: #000000;
+  --color-letter: #ffffff;
+}
+header {
+  background-color: var(--theme-color);
+}
+header > h1,
+#headerLetter {
+  color: var(--color-letter);
+}
